@@ -1,0 +1,25 @@
+.track-attendees-wrapper {
+  padding: 20px;
+}
+.highlight {
+  color: #0088fe;
+}
+.attendee-list {
+  list-style: none;
+  padding-left: 0;
+}
+.attendee-item {
+  margin-bottom: 5px;
+}
+.analytics-section {
+  margin-top: 40px;
+}
+.chart-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.chart-box {
+  text-align: center;
+}

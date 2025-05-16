@@ -1,0 +1,42 @@
+###
+GET http://localhost:3001/api/events
+
+###
+GET https://major-project-backend-4kbj.onrender.com/api/events
+
+###
+
+POST http://localhost:3001/events
+Content-Type: application/json
+
+{
+  "name": "Coding Competition",
+  "description": "A fun coding event",
+  "date": "2025-04-20T10:00:00.000Z",
+  "startTime": "10:00 AM",
+  "endTime": "02:00 PM",
+  "venue": "Main Hall",
+  "club": "Coding Club",
+  "department": "Computer Science",
+  "status": "NOT YET STARTED",
+  "posterUrl": "https://example.com/poster.jpg",
+  "managers": [],
+  "volunteers": []
+}
+
+
+###
+
+POST http://localhost:3001/add-dummy-users
+
+
+###
+
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+  "email": "user15@example.com",
+  "password": "123456",
+  "role": "admin"
+}

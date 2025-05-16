@@ -1,0 +1,47 @@
+/* Scoped styles for About component */
+.about-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fefefe;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+  }
+  
+  .about-container h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-container h2 {
+    color: #34495e;
+    margin-top: 25px;
+  }
+  
+  .about-container p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .about-container ul {
+    margin-left: 20px;
+    padding-left: 10px;
+    list-style-type: disc;
+  }
+  
+  .about-container li {
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .about-container .thank-you {
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #007bff;
+  }
+  

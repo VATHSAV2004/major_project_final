@@ -1,0 +1,320 @@
+[{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e67"
+  },
+  "name": "User 14",
+  "username": "user14",
+  "phone": "1234500014",
+  "email": "user14@example.com",
+  "role": "volunteer",
+  "occupation": "faculty",
+  "department": "ECE",
+  "studentDetails": null,
+  "password": "$2b$12$0V627z4DdP.HdonoT1NgEuv58RmhjYpkaxGl.oMJqzhZOtYPZmnl2"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e69"
+  },
+  "name": "User 16",
+  "username": "user16",
+  "phone": "1234500016",
+  "email": "user16@example.com",
+  "role": "manager",
+  "occupation": "faculty",
+  "department": "AIML",
+  "studentDetails": null,
+  "password": "$2b$12$Wfl2c7hR.tnI315RAn/0juUgBhZVoRAHL/DR4of1h6MtPAQ90A2oK"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e6c"
+  },
+  "name": "User 19",
+  "username": "user19",
+  "phone": "1234500019",
+  "email": "user19@example.com",
+  "role": "manager",
+  "occupation": "student",
+  "department": "ECE",
+  "studentDetails": {
+    "rollNo": "ROLL019",
+    "course": "Electronics",
+    "year": 4
+  },
+  "password": "$2b$12$xZRqvCst2jDDS.f211YmuOj6gD0MO4gTKECFq3JqLd7uqJFnootMm"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e59"
+  },
+  "name": "User 0",
+  "username": "user0",
+  "phone": "1234500000",
+  "email": "dasisaisrivathsav2004@gmail.com",
+  "role": "admin",
+  "occupation": "faculty",
+  "department": "CSE",
+  "studentDetails": null,
+  "password": "$2b$12$yBsvZP9S.m0pPajxIcVGA.s5xq1DUYLOUCspTm2tncwEJ4SP5o8J2"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e68"
+  },
+  "name": "User 15",
+  "username": "user15",
+  "phone": "1234500015",
+  "email": "user15@example.com",
+  "role": "admin",
+  "occupation": "student",
+  "department": "CSE",
+  "studentDetails": {
+    "rollNo": "ROLL015",
+    "course": "Computer Science",
+    "year": 4
+  },
+  "password": "$2b$12$/z9gElc72kTqEqBuWKBYZenfZVqJLHAjuX5n/jQ0Dbp.rv.sVkN/u"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e61"
+  },
+  "name": "User 8",
+  "username": "user8",
+  "phone": "1234500008",
+  "email": "user8@example.com",
+  "role": "volunteer",
+  "occupation": "faculty",
+  "department": "EEE",
+  "studentDetails": null,
+  "password": "$2b$12$2frEMF/VmESFn6vFQcLiZOj3z/yJ93u1RvYhZHH1ikvgl6uTKGMLa"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e5e"
+  },
+  "name": "User 5",
+  "username": "user5",
+  "phone": "1234500005",
+  "email": "user5@example.com",
+  "role": "volunteer",
+  "occupation": "student",
+  "department": "CSE",
+  "studentDetails": {
+    "rollNo": "ROLL005",
+    "course": "Computer Science",
+    "year": 2
+  },
+  "password": "$2b$12$bqkmIE.ym4ury8yDEin53eGBRxuRngZrBrndc.289S8YYvOcNk2J."
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e64"
+  },
+  "name": "User 11",
+  "username": "user11",
+  "phone": "1234500011",
+  "email": "saisrivathsav02@example.com",
+  "role": "volunteer",
+  "occupation": "student",
+  "department": "AIML",
+  "studentDetails": {
+    "rollNo": "ROLL011",
+    "course": "AI & ML",
+    "year": 4
+  },
+  "password": "$2b$12$hZZi7wHDF0VrPwlyB09wC.IDWqtdwoPArK3V4dBMr26liJuQz.hwi"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e5a"
+  },
+  "name": "User 1",
+  "username": "user1",
+  "phone": "1234500001",
+  "email": "user1@example.com",
+  "role": "user",
+  "occupation": "student",
+  "department": "AIML",
+  "studentDetails": {
+    "rollNo": "ROLL001",
+    "course": "AI & ML",
+    "year": 2
+  },
+  "password": "$2b$12$onaTk2Ppd/qixBCt4SDAK.oBKeZVE5DaIE9MDLuRj4yhcch3CDHnS"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e5b"
+  },
+  "name": "User 2",
+  "username": "user2",
+  "phone": "1234500002",
+  "email": "user2@example.com",
+  "role": "volunteer",
+  "occupation": "faculty",
+  "department": "MECH",
+  "studentDetails": null,
+  "password": "$2b$12$1AsblYiidXcraV3r84W8keN0PMcENOkrVeZbTcWG4czG3GuLgJYvS"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e5d"
+  },
+  "name": "User 4",
+  "username": "user4",
+  "phone": "1234500004",
+  "email": "user4@example.com",
+  "role": "manager",
+  "occupation": "faculty",
+  "department": "ECE",
+  "studentDetails": null,
+  "password": "$2b$12$ZPO0gBcpfiMYc9/kTccF3u0uWFMwc0BdH6QrNZYzhn293myVetc8S"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e5c"
+  },
+  "name": "User 3",
+  "username": "user3",
+  "phone": "1234500003",
+  "email": "saisrivathsav1@gmail.com",
+  "role": "user",
+  "occupation": "student",
+  "department": "EEE",
+  "studentDetails": {
+    "rollNo": "ROLL003",
+    "course": "Electrical Engineering",
+    "year": 4
+  },
+  "password": "$2b$12$ZlEHaW0aOOWW2btfQExphuD2y43n7lP6Ri1rNDHGzW6fn6zyJURd."
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e62"
+  },
+  "name": "User 9",
+  "username": "user9",
+  "phone": "1234500009",
+  "email": "user9@example.com",
+  "role": "admin",
+  "occupation": "student",
+  "department": "ECE",
+  "studentDetails": {
+    "rollNo": "ROLL009",
+    "course": "Electronics",
+    "year": 2
+  },
+  "password": "$2b$12$JffC3IC6Zi45SQlImP9pkeIZvS75qjVl7EgAlKrjujMYv3we8tBNO"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e66"
+  },
+  "name": "User 13",
+  "username": "user13",
+  "phone": "1234500013",
+  "email": "user13@example.com",
+  "role": "manager",
+  "occupation": "student",
+  "department": "EEE",
+  "studentDetails": {
+    "rollNo": "ROLL013",
+    "course": "Electrical Engineering",
+    "year": 2
+  },
+  "password": "$2b$12$RiFuATXYvZFKMEOPFK1z7OQWt4/siuqpBhIq4zoEtM.tDi.fW7E8a"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e6b"
+  },
+  "name": "User 18",
+  "username": "user18",
+  "phone": "1234500018",
+  "email": "user18@example.com",
+  "role": "admin",
+  "occupation": "faculty",
+  "department": "EEE",
+  "studentDetails": null,
+  "password": "$2b$12$b2bKJwmSxsOUhcDGr3TV.eeFWKuuthSdOqzQ4LCWBs3ffVoNruO0m"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e60"
+  },
+  "name": "User 7",
+  "username": "user7",
+  "phone": "1234500007",
+  "email": "user7@example.com",
+  "role": "manager",
+  "occupation": "student",
+  "department": "MECH",
+  "studentDetails": {
+    "rollNo": "ROLL007",
+    "course": "Mechanical Engineering",
+    "year": 4
+  },
+  "password": "$2b$12$mQoa.iJXTlFsLi8LxKAmeODtxo9iMDPHj514vcErOlwystxeIHm0C"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e65"
+  },
+  "name": "User 12",
+  "username": "user12",
+  "phone": "1234500012",
+  "email": "user12@example.com",
+  "role": "admin",
+  "occupation": "faculty",
+  "department": "MECH",
+  "studentDetails": null,
+  "password": "$2b$12$LSRtpVrl8e.AJzRgTw1qE.PkDCDi3KQKy9kOwszb6CoF/vp6oO.iO"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e5f"
+  },
+  "name": "User 6",
+  "username": "user6",
+  "phone": "1234500006",
+  "email": "user6@example.com",
+  "role": "admin",
+  "occupation": "faculty",
+  "department": "AIML",
+  "studentDetails": null,
+  "password": "$2b$12$FhbuyMQW1K7AaI7jdE0HuuYlIEcLpetAXc3CYMtSBLx7y2nRtKYn."
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e63"
+  },
+  "name": "User 10",
+  "username": "user10",
+  "phone": "1234500010",
+  "email": "user10@example.com",
+  "role": "manager",
+  "occupation": "faculty",
+  "department": "CSE",
+  "studentDetails": null,
+  "password": "$2b$12$xpSf67FQFvdRyRdTOGQHnOVh.hrTXaPVul8YlcvPRkL1JdXT3GJdW"
+},
+{
+  "_id": {
+    "$oid": "67e2669b7182d69d32fb6e6a"
+  },
+  "name": "User 17",
+  "username": "user17",
+  "phone": "1234500017",
+  "email": "user17@example.com",
+  "role": "volunteer",
+  "occupation": "student",
+  "department": "MECH",
+  "studentDetails": {
+    "rollNo": "ROLL017",
+    "course": "Mechanical Engineering",
+    "year": 2
+  },
+  "password": "$2b$12$zxOIIx5iGahlP7Gc6alv9OxbiourlWvp9vsaTViVlmUsgsTVFCcxG"
+}]

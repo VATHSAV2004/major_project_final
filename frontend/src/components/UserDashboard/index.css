@@ -1,0 +1,75 @@
+/* Scoped styles for the UserDashboard component */
+.user-dashboard {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .user-dashboard h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .user-dashboard p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .user-dashboard h3 {
+    color: #222;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .user-dashboard .events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .user-dashboard .event-card {
+    background: #f8f9fa;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    transition: box-shadow 0.3s;
+  }
+  
+  .user-dashboard .event-card:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .user-dashboard .event-card h4 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .user-dashboard .event-card p {
+    margin: 5px 0 0;
+    color: #555;
+  }
+  
+  .user-dashboard .see-more {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 16px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .user-dashboard .see-more:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,42 @@
+.departmentname {
+  color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.mainback {
+  background-color: black;
+  padding: 20px;
+}
+
+/* View More button */
+.view-more {
+  color: #fff;
+  background-color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 12px auto 32px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center;
+}
+
+/* Hover effect */
+.view-more:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+/* Responsive adjustment */
+@media (max-width: 600px) {
+  .view-more {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}

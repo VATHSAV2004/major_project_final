@@ -1,0 +1,73 @@
+.slider-container {
+  position: relative;
+  padding: 20px;
+  overflow: hidden;
+}
+
+/* Prevents half cards from showing */
+.slick-list {
+  overflow: hidden !important;
+}
+
+.slick-slide > div {
+  padding: 10px; /* ✅ Keeps space between cards */
+}
+
+/* Hover effect for larger screens only */
+@media (min-width: 768px) {
+  .event-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .event-card:hover {
+    transform: scale(1.05);
+    z-index: 5;
+    position: relative;
+  }
+}
+
+/* Disable hover effect on mobile screens */
+@media (max-width: 768px) {
+  .event-card {
+    pointer-events: none; /* ✅ Disable hover and click hover */
+  }
+}
+
+/* Center Cards on Small Screens */
+@media (max-width: 1024px) {
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Arrow Styling */
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+}
+
+.slick-prev {
+  left: -40px;
+}
+
+.slick-next {
+  right: -40px;
+}
+
+.slick-arrow:hover {
+  background: rgba(0, 0, 0, 0.8);
+}

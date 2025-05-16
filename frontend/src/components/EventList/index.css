@@ -1,0 +1,18 @@
+.event-list input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .event-cards {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+  }

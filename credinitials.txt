@@ -1,0 +1,31 @@
+✅ Admin Accounts
+Email	Password	Role
+admin1@example.com	password123	admin
+admin2@example.com	password123	admin
+admin3@example.com	password123	admin
+✅ Manager Accounts
+Email	Password	Role
+manager1@example.com	password123	manager
+manager2@example.com	password123	manager
+manager3@example.com	password123	manager
+✅ Volunteer Accounts
+Email	Password	Role
+volunteer1@example.com	password123	volunteer
+volunteer2@example.com	password123	volunteer
+volunteer3@example.com	password123	volunteer
+
+changed credintials
+
+dasisaisrivathsav2004@gmail.com
+user0
+Admin
+
+saisrivathsav1@gmail.com
+user3
+User
+
+saisrivathsav02@gmail.com
+User11
+Volunteer
+
+

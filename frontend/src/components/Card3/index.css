@@ -1,0 +1,119 @@
+/* Card Container */
+.event-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Take full width */
+    max-width: 320px; /* Prevents it from exceeding width */
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover Effect (Disable on Mobile) */
+  @media (min-width: 768px) {
+    .event-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    }
+  }
+  
+  /* Image Container */
+  .event-image-container {
+    width: 100%;
+    height: 180px; /* Fixed height for consistent size */
+  }
+  
+  .event-image {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; /* Prevents image stretching */
+  }
+  
+  /* Event Title */
+  .event-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  /* Event Description */
+  .event-description {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #555;
+    margin-bottom: 12px;
+    padding: 0 8px;
+  }
+  
+  /* Action Buttons Container */
+  .event-actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  /* Like Button */
+  .like-button,
+  .know-more-button {
+    flex: 1;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: background 0.2s;
+  }
+  
+  /* Like Button */
+  .like-button {
+    background: #f8f8f8;
+    color: #ffcc00;
+    font-size: 1.1rem;
+    border: 1px solid #ffcc00;
+  }
+  
+  .like-button:hover {
+    background: #ffcc00;
+    color: #fff;
+  }
+  
+  /* Know More Button */
+  .know-more-button {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .know-more-button:hover {
+    background: #0056b3;
+  }
+  
+  /* Mobile Adjustments */
+  @media (max-width: 768px) {
+    .event-card {
+      max-width: 90%; /* Takes 90% of screen width */
+      margin: 0 auto;
+    }
+  
+    .event-actions {
+      flex-direction: row;
+      gap: 8px;
+    }
+  
+    .like-button,
+    .know-more-button {
+      font-size: 0.9rem;
+      padding: 6px 10px;
+    }
+  }
+  

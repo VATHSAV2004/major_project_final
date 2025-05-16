@@ -1,0 +1,17 @@
+.volunteer-dashboard {
+    padding: 20px;
+    background-color: #3a3a4b;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .volunteer-dashboard h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .volunteer-dashboard p {
+    font-size: 16px;
+  }
+  

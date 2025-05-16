@@ -1,0 +1,164 @@
+/* General Styles */
+.event-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-details h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.event-details img.event-poster {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.event-details p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* People Section Styles */
+.event-details .people-section {
+  margin-top: 30px;
+}
+
+.event-details .people-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.event-details .people-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-details .people-section ul li {
+  background-color: #f5f5f5;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+/* Registration Section Styles */
+.event-details .register-section {
+  margin-top: 20px;
+}
+
+.event-details .register-section button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.event-details .register-section button:hover {
+  background-color: #0056b3;
+}
+
+.event-details .register-section p {
+  font-size: 1rem;
+  color: green;
+  font-weight: bold;
+}
+
+/* Modal Styles */
+.event-details .modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.event-details .modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-details .modal-content h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.event-details .modal-content input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.event-details .modal-content button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.event-details .modal-content button:hover {
+  background-color: #218838;
+}
+
+.event-details .modal-content button:last-child {
+  background-color: #dc3545;
+}
+
+.event-details .modal-content button:last-child:hover {
+  background-color: #c82333;
+}
+
+/* Loading & Error Message Styles */
+.event-details .loading,
+.event-details .error {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.event-details .loading {
+  color: #007bff;
+}
+
+.event-details .error {
+  color: #dc3545;
+}
+
+/* Link Styling */
+.event-details .signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.event-details .signup-link a:hover {
+  text-decoration: underline;
+}

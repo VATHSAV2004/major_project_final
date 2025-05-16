@@ -1,0 +1,142 @@
+.edit-event {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.edit-event h2,
+.edit-event h3 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #444;
+  padding-bottom: 0.5rem;
+}
+
+.edit-event input,
+.edit-event textarea,
+.edit-event select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  background-color: #2c2c2c;
+  border: 1px solid #444;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.edit-event input:focus,
+.edit-event textarea:focus,
+.edit-event select:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.edit-event textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  background-color: #333;
+  padding: 8px 12px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.tag button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.tag button:hover {
+  background-color: #ff1a1a;
+}
+
+.search-results {
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: #2c2c2c;
+  border: 1px solid #444;
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.result {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #444;
+}
+
+.result:last-child {
+  border-bottom: none;
+}
+
+.result button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.result button:hover {
+  background-color: #45a049;
+}
+
+.save-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.save-btn:hover {
+  background-color: #45a049;
+}
+
+.save-btn:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #bbb;
+}

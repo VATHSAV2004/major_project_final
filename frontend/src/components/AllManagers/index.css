@@ -1,0 +1,35 @@
+.see-more-btn, .back-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .delete-icon {
+    cursor: pointer;
+    font-size: 18px;
+    color: red;
+    margin-left: 10px;
+  }
+  

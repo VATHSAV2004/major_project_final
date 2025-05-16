@@ -1,0 +1,85 @@
+.admin-list-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+.admin-box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+}
+
+.admin-box {
+    background-color: #1c1c1c;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.admin-box h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.admin-box p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #bbb;
+}
+
+.admin-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.delete-icon {
+    cursor: pointer;
+    font-size: 18px;
+    color: red;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.see-more-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #444;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+.see-more-btn:hover {
+    background-color: #666;
+}
