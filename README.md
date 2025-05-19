@@ -18,7 +18,7 @@ Our Event Management Application is designed to simplify organizing, scheduling,
   <li>🔔 <strong>Email Notifications:</strong> Automated emails keep users informed about event updates, reminders, and important announcements.</li>
   <li>📱 <strong>Responsive UI:</strong> Developed with React.js for a user-friendly experience across devices including mobiles and tablets.</li>
   <li>🧩 <strong>Backend Integration:</strong> Powered by Node.js and Express.js for efficient API handling and data management.</li>
-  <li>🗃️ <strong>Database:</strong> Uses SQLite for lightweight and effective storage of user and event data.</li>
+  <li>🗃️ <strong>MongoDB Database:</strong> Utilizes MongoDB for flexible, scalable, and efficient storage of user and event data.</li>
 </ul>
 
 <hr>
