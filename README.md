@@ -27,10 +27,21 @@ Our Event Management Application is designed to simplify organizing, scheduling,
 
 <p>Here are some screenshots showcasing the main features and interface of the Event Management Application:</p>
 
-<img src="event-dashboard.png" alt="Event Dashboard Screenshot" width="600" />
 
-<img src="event-registration.png" alt="Event Registration Screenshot" width="600" />
 
-<img src="qr-email.png" alt="Registration Email with QR Code Screenshot" width="600" />
-
-<img src="attendance-scan.png" alt="QR Code Attendance Scan Screenshot" width="600" />
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+  <img src="Screenshot 2025-05-19 130743.png" alt="Screenshot 130743" width="300" />
+  <img src="Screenshot 2025-05-19 130953.png" alt="Screenshot 130953" width="300" />
+  <img src="Screenshot 2025-05-19 131023.png" alt="Screenshot 131023" width="300" />
+  <img src="Screenshot 2025-05-19 131042.png" alt="Screenshot 131042" width="300" />
+  <img src="Screenshot 2025-05-19 131050.png" alt="Screenshot 131050" width="300" />
+  <img src="Screenshot 2025-05-19 131101.png" alt="Screenshot 131101" width="300" />
+  <img src="Screenshot 2025-05-19 131306.png" alt="Screenshot 131306" width="300" />
+  <img src="Screenshot 2025-05-19 131328.png" alt="Screenshot 131328" width="300" />
+  <img src="Screenshot 2025-05-19 131341.png" alt="Screenshot 131341" width="300" />
+  <img src="Screenshot 2025-05-19 131356.png" alt="Screenshot 131356" width="300" />
+  <img src="Screenshot 2025-05-19 131430.png" alt="Screenshot 131430" width="300" />
+  <img src="Screenshot 2025-05-19 131500.png" alt="Screenshot 131500" width="300" />
+  <img src="Screenshot 2025-05-19 131515.png" alt="Screenshot 131515" width="300" />
+  <img src="Screenshot 2025-05-19 131529.png" alt="Screenshot 131529" width="300" />
+</div>
